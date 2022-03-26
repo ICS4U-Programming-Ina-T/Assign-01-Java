@@ -96,7 +96,6 @@ class RockPaperScissors {
                 choiceUserInt = Integer.parseInt(choiceString);
 
                 if (choiceUserInt >= ROCK && choiceUserInt <= SCISSORS) {
-
                     // calls function to determine tie game or a winner
                     resultUser =
                         gameResults(choiceUserInt, randomNumberComp);
